@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title itemprop="name">立即連署，要求縣市首長宣示氣候緊急</title>
+    <meta name="description" content="臺灣地狹人稠，城市不僅人口集中，也是面對氣候衝擊的第一線，立即連署，要求縣市首長宣布氣候緊急狀態，一起帶領臺灣追上國際都會低碳治理的潮流！">
+    <meta name="og:title" property="og:title" content="立即連署，要求縣市首長宣示氣候緊急">
+    <meta name="og:description" property="og:description" content="臺灣地狹人稠，城市不僅人口集中，也是面對氣候衝擊的第一線，立即連署，要求縣市首長宣布氣候緊急狀態，一起帶領臺灣追上國際都會低碳治理的潮流！">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.emergency.signup.mc/images/socialpreview_gp.jpg">
+    <meta http-equiv="Content-Language" content="zh-tw">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="js/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css?v=7">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>        
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+          'gCampaign' : 'climate',
+          'gBasket' : 'climate-emergency'
+      });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WRM6WK6');</script>
+    <!-- End Google Tag Manager -->  
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRM6WK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <header class="header on  header--release">
+      <div class="header__inner"><span class="header__logo hide-text"></span><a class="menu-btn" href="#"><span class="bars"></span></a></div>
+    </header>
+    <nav class="nav">
+      <div class="nav__cover"></div>
+      <div class="nav__inner">
+        <div class="nav__head">
+          <div class="nav__logo hide-text"><span class="text">綠色和平</span></div><a class="menu-btn menu-btn--close" href="#"><span class="bars"></span></a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="https://cloud.greentw.greenpeace.org/petition-climate-emergency">首頁</a></li>
+          <li class="nav__item"><a class="nav__link" id="navGoGame" href="https://cloud.greentw.greenpeace.org/petition-climate-emergency">遊戲體驗</a></li>
+          <li class="nav__item"><a class="nav__link" href="events-tpe.html">走過極端事件</a></li>
+          <li class="nav__item"><a class="nav__link" href="https://miaochien.shinyapps.io/ccdashboard-housekeeper/">未來氣候趨勢</a></li>
+          <li class="nav__item"><a class="nav__link" href="sign.html">走上改變</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrap wrap--long sign">
+      <section class="sign__section sign-enter">
+        <div class="sign-enter__inner">
+          <div class="sign-enter__main">
+            <h1 class="sign-enter__title hide-text"><span class="text">氣候緊急 城市先行</span></h1>
+            <div class="sign-enter__content">
+              <p class="sign-enter__desc">
+                暴雨、熱浪、海平面上升，<br class="mb-show">氣候變遷已衝擊您我的生活。<br>若我們不能及時展開行動，積極減碳，<br class="mb-show"><br class="mb-show"><strong>2050年，
+                <br>臺灣恐有近300萬人的家園沒入海中...</strong>
+              </p>
+            </div>
+            <div class="progress__div">
+              <div class="lds-dual-ring"></div>
+              <div class="progress__inner">
+                <div class="progress__number" id="progress__number"></div>
+                <div class="progress" id="progress"></div>
+                <p class="progress__desc">立即連署，號招更多朋友參與，達到目標： <span id="progress__target"></span>人</p>
+              </div>
+            </div>              
+          </div>
+        </div><a class="sign__scroll scrollto" href="" data-to="#sign"></a>
+      </section>
+      <section class="sign__section sign-main" id="sign">
+        <div class="sign-main__inner" id="signForm">
+          <h2 class="sign-main__title"><span class="text">我來自<br class="mb-show"></span><span class="sign-main__select"><span class="text"></span>
+              <select id="signCounty">
+                <option value="0">臺北市</option>
+                <option value="1">新北市</option>
+                <option value="2">基隆市</option>
+                <option value="3">桃園市</option>
+                <option value="4">新竹縣</option>
+                <option value="5">新竹市</option>
+                <option value="6">苗栗縣</option>
+                <option value="7">臺中市</option>
+                <option value="8">南投縣</option>
+                <option value="9">彰化縣</option>
+                <option value="10">雲林縣</option>
+                <option value="11">嘉義縣</option>
+                <option value="12">嘉義市</option>
+                <option value="13">臺南市</option>
+                <option value="14">高雄市</option>
+                <option value="15">屏東縣</option>
+                <option value="16">宜蘭縣</option>
+                <option value="17">花蓮縣</option>
+                <option value="18">臺東縣</option>
+                <option value="19">金門縣</option>
+                <option value="20">澎湖縣</option>
+                <option value="21">連江縣</option>
+              </select></span><span class="text"><span class="mb-hide">，</span><br>我要求地方政府<strong>宣示氣候緊急！</strong></span></h2>
+          <p class="sign-main__text sign-main__text--center"><a class="sign-main__spec-link" id="openEmergency" href="">點擊查看：什麼是氣候緊急？</a><a class="sign-main__spec-link sign-main__spec-link--toggle" href="">點擊查看：什麼是氣候緊急<span class="toggle">+</span></a></p>
+          <div class="emergency" style="display: none;">
+            <div class="emergency__cover"></div>
+            <div class="emergency__body">
+              <div class="emergency__inner">
+                <h3 class="emergency__title mb-hide">什麼是氣候緊急？</h3>
+                <div class="emergency__content">
+                  <p class="emergency__desc">氣候緊急表示氣候變遷的危害程度已經影響到民眾生命與財產安全，需要採取緊急行動加速減輕氣候帶來的衝擊，目前全球已有超過1,700個政府單位，包含城市與國家層級，宣布進入「氣候緊急」，綠色和平也將持續要求地方政府宣示氣候緊急，並採取行動包含：</p>
+                  <ul class="emergency__list">
+                    <li class="emergency__item"><span class="emergency__icon emergency__icon--file"></span>
+                      <p class="emergency__desc">全面評估並且揭露城市氣候風險，<br>發展因地制宜的氣候調適策略</p>
+                    </li>
+                    <li class="emergency__item"><span class="emergency__icon emergency__icon--up"></span>
+                      <p class="emergency__desc">制定符合巴黎氣候協定的溫室氣體減量目標，<br class="mb-hide">幫助控制全球升溫於1.5 °C</p>
+                    </li>
+                    <li class="emergency__item"><span class="emergency__icon emergency__icon--expend"></span>
+                      <p class="emergency__desc">擴大再生能源使用佔比，<br>訂定地方再生能源目標與執行計畫</p>
+                    </li>
+                    <!--
+                    <li class="emergency__item"><span class="emergency__icon emergency__icon--speaker"></span>
+                      <p class="emergency__desc">要求中央政府宣布國家級的氣候緊急狀態，<br class="mb-hide">提出 2050 年碳中和目標</p>
+                    </li>-->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sign-main__content">
+            <div class="sign-main__block sign-paper">
+              <div class="sign-paper__body">
+                <div class="sign-paper__content">
+                  <p class="sign-paper__title">致<span class="name"></span>縣/市長：<br><br></p>
+                  <p class="sign-paper__desc">
+                    臺灣地狹人稠，城市不僅人口集中，<br>也是面對氣候衝擊的第一線，
+                    <br>為保障人民生命財產安全，
+                    <br><strong>我希望地方政府正視氣候問題，
+                    <br>立刻宣示氣候緊急</strong>，發揮地方影響力，
+                    <br>為下一代打造一個永續宜居的韌性城市。
+                    <br>目前，全球有超過1,700個不同層級的政府
+                    <br>宣布氣候緊急狀態，臺灣各縣市都有條件作國際減碳表率，
+                    <br class="mb-hide">一起帶領臺灣追上國際都會低碳治理的潮流！
+                  </p>
+                </div>
+              </div>
+            </div><a class="sign-form__btn mb-show scrollto" href="" data-to="#form">立即連署</a>
+            <div class="sign-main__block sign-form" id="form">
+              <h3 class="sign-form__title mb-show">我要連署</h3>
+              <form id="sign-form" action="https://cors-anywhere.small-service.gpeastasia.org/https://cloud.greentw.greenpeace.org/pp_campaign" method="POST">
+                <ul class="sign-form__list">
+                  <li class="sign-form__item sign-form__group">
+                    <div class="sign-form__cell sign-form__cell--s">
+                      <label class="sign-form__label" for="LastName">姓氏<span class="mark">*</span></label>
+                      <input class="sign-form__input" type="text" name="LastName" id="LastName" required>
+                    </div>
+                    <div class="sign-form__cell">
+                      <label class="sign-form__label" for="FirstName">名字<span class="mark">*</span></label>
+                      <input class="sign-form__input" type="text" name="FirstName" id="FirstName" required>
+                    </div>
+                  </li>
+                  <li class="sign-form__item">
+                    <label class="sign-form__label" for="Birthdate">出生年份<span class="mark">*</span></label>                    
+                    <select class="sign-form__input" name="Birthdate" id="Birthdate" placeholder="出生年份" required>
+                      <option value="">選擇年份</option>
+                    </select>
+                  </li>
+                  <li class="sign-form__item">
+                    <label class="sign-form__label" for="MobilePhone">電話<span class="mark">*</span></label>
+                    <input class="sign-form__input taiwan-phone" type="text" name="MobilePhone" id="MobilePhone" required>
+                  </li>
+                  <li class="sign-form__item">
+                    <label class="sign-form__label" for="Email">電子信箱<span class="mark">*</span></label>
+                    <input class="sign-form__input email" type="email" name="Email" id="Email" required>
+                  </li>
+                  <li class="sign-form__item sign-form__item--check">
+                    <input class="sign-form__check" type="checkbox" name="OptIn" id="OptIn" checked>
+                    <label class="sign-form__check-label" for="OptIn">我要即時收到最新專案訊息，知道更多參與和協助的方法！綠色和平尊重並保障您的個人隱私資料，您隨時可取消訂閱，請參考隱私保護政策。</label>
+                  </li>
+                  <input placeholder="MobileCountryCode" name="MobileCountryCode" type="hidden" value="886">
+                  <input type="hidden" name="req" value="post_data">
+                  <input type="hidden" name="LeadSource" value="Petition - Climate">
+                  <input type="hidden" name="Petition_Interested_In_Arctic__c" value="false">
+                  <input type="hidden" name="Petition_Interested_In_Climate__c" value="true">
+                  <input type="hidden" name="Petition_Interested_In_Forest__c" value="false">
+                  <input type="hidden" name="Petition_Interested_In_Health__c" value="false">
+                  <input type="hidden" name="Petition_Interested_In_Oceans__c" value="false">
+                  <input type="hidden" name="Petition_Interested_In_Plastics__c" value="false">
+                  <input type="hidden" name="CampaignId" value="7012u000000OzRxAAK">
+                  <input type="hidden" name="UtmMedium" id="UtmMedium" value="">
+                  <input type="hidden" name="UtmSource" id="UtmSource" value="">
+                  <input type="hidden" name="UtmCampaign" id="UtmCampaign" value="">
+                  <input type="hidden" name="UtmContent" id="UtmContent" value="">
+                  <input type="hidden" name="UtmTerm" id="UtmTerm" value="">
+                  <input type="hidden" name="DonationPageUrl" value="">	
+                </ul>
+                <button class="sign-form__submit" type="submit">立即連署</button>
+              </form>              
+            </div>
+          </div>
+        </div>
+        <div class="sigm-main__inner" id="signed" style="display: none;">
+          <div class="sign-thanks">
+            <div class="sign-thanks__inner">
+              <h2 class="sign-thanks__title">Thank you!<br>感謝您加入連署，<br class="mb-show">一同要求決策者正視氣候問題</h2>
+              <p class="sign-thanks__content">
+                未來三年，全球綠色和平將投入更多資源去減緩氣候變遷，包含持續關注極端氣候事件，向無視氣候危機的政府、企業問責，同時向全球化石燃料企業施壓；在臺灣，我們已展開氣候教育，提升下一代的氣候危機意識，並監督用電大戶條款與溫管法的修法，要求臺灣用電大戶需負起相應的環境責任，積極轉用再生能源。<br><br>環境運動並非一蹴可幾，但只要堅持下去，必能迎來轉機，您的連署支持就是改善氣候問題的第一步，也邀請您多走一步，將連署分享給親朋好友，壯大臺灣的氣候運動社群！
+                <br><br><br>分享至：<br><a class="sign-thanks__share sign-thanks__share--fb share-button share-button__fb" id="shareFB" href="" target="_blank"></a><a class="sign-thanks__share sign-thanks__share--line share-button share-button__line" id="shareLINE" href="" target="_blank"></a>
+              </p><a class="sign-form__btn sign-thanks__support is-hidden-at-dd-page-only" href="https://supporter.ea.greenpeace.org/tw/s/donate?campaign=climate&ref=2020-climate-emergency_thankyoupage_donation_btn" target="_blank">支持我們</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sign__section sign-taiwan">
+        <div class="sign-taiwan__inner">
+          <p class="sign-taiwan__time">最近更新：2020/10/20</p>
+          <h2 class="sign-taiwan__title">
+            <strong>目前已宣示的縣市首長<span>0位</span></strong><br>誰會成為臺灣第一位宣示氣候緊急的縣市首長？</h2>          
+          <div class="sign-taiwan__main">            
+            <div class="sign-taiwan__base"></div>
+            <div class="sign-taiwan__fill">
+              <!--.sign-taiwan__block 加上 on class 作為已宣示的縣市區，可以點擊開出宣言-->
+              <div class="sign-taiwan__block sign-taiwan__block--tpe" data-code="tpe"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--tph" data-code="tph"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--klu" data-code="klu"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--tyc" data-code="tyc"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--hsh" data-code="hsh"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--hsc" data-code="hsc"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--mal" data-code="mal"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--txg" data-code="txg"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--nto" data-code="nto"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--cwh" data-code="cwh"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--ylh" data-code="ylh"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--chy" data-code="chy"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--cyi" data-code="cyi"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--tnn" data-code="tnn"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--khh" data-code="khh"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--iuh" data-code="iuh"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--iln" data-code="iln"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--hwa" data-code="hwa"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--ttt" data-code="ttt"></div>
+            </div>
+            <div class="sign-taiwan__line"></div>
+            <div class="sign-taiwan__cards">
+              <div class="card card--tpe">
+                <div class="card__photo"><img src="./images/mayor/tpe.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">臺北市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">柯文哲</span></span></p><a class="card__btn" href="" data-county="tpe">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--tph">
+                <div class="card__photo"><img src="./images/mayor/tph.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">新北市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">侯友宜</span></span></p><a class="card__btn" href="" data-county="tph">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--klu">
+                <div class="card__photo"><img src="./images/mayor/klu.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">基隆市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">林右昌</span></span></p><a class="card__btn" href="" data-county="klu">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--tyc">
+                <div class="card__photo"><img src="./images/mayor/tyc.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">桃園市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">鄭文燦</span></span></p><a class="card__btn" href="" data-county="tyc">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--hsh">
+                <div class="card__photo"><img src="./images/mayor/hsh.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">新竹縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">楊文科</span></span></p><a class="card__btn" href="" data-county="hsh">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--hsc">
+                <div class="card__photo"><img src="./images/mayor/hsc.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">新竹市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">林智堅</span></span></p><a class="card__btn" href="" data-county="hsc">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--mal">
+                <div class="card__photo"><img src="./images/mayor/mal.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">苗栗縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">徐耀昌</span></span></p><a class="card__btn" href="" data-county="mal">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--txg">
+                <div class="card__photo"><img src="./images/mayor/txg.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">臺中市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">盧秀燕</span></span></p><a class="card__btn" href="" data-county="txg">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--nto">
+                <div class="card__photo"><img src="./images/mayor/nto.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">南投縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">林明溱</span></span></p><a class="card__btn" href="" data-county="nto">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--cwh">
+                <div class="card__photo"><img src="./images/mayor/cwh.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">彰化縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">王惠美</span></span></p><a class="card__btn" href="" data-county="cwh">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--ylh">
+                <div class="card__photo"><img src="./images/mayor/ylh.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">雲林縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">張麗善</span></span></p><a class="card__btn" href="" data-county="ylh">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--chy">
+                <div class="card__photo"><img src="./images/mayor/chy.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">嘉義縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">翁章梁</span></span></p><a class="card__btn" href="" data-county="chy">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--cyi">
+                <div class="card__photo"><img src="./images/mayor/cyi.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">嘉義市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">黃敏惠</span></span></p><a class="card__btn" href="" data-county="cyi">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--tnn">
+                <div class="card__photo"><img src="./images/mayor/tnn.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">臺南市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">黃偉哲</span></span></p><a class="card__btn" href="" data-county="tnn">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--khh">
+                <div class="card__photo"><img src="./images/mayor/khh.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">高雄市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">陳其邁</span></span></p><a class="card__btn" href="" data-county="khh">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--iuh">
+                <div class="card__photo"><img src="./images/mayor/iuh.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">屏東縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">潘孟安</span></span></p><a class="card__btn" href="" data-county="iuh">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--iln">
+                <div class="card__photo"><img src="./images/mayor/iln.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">宜蘭縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">林姿妙</span></span></p><a class="card__btn" href="" data-county="iln">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--hwa">
+                <div class="card__photo"><img src="./images/mayor/hwa.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">花蓮縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">徐榛蔚</span></span></p><a class="card__btn" href="" data-county="hwa">查看氣候緊急宣言</a>
+              </div>
+              <div class="card card--ttt">
+                <div class="card__photo"><img src="./images/mayor/ttt.png" alt=""></div>
+                <p class="card__title"><span class="card__dist">臺東縣 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">饒慶鈴</span></span></p><a class="card__btn" href="" data-county="ttt">查看氣候緊急宣言</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="declaration" style="display: none;">
+          <div class="declaration__cover"></div>
+          <div class="declaration__slider">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide declaration__slide"><img src="images/mayor/d-1.jpg" alt=""></div>
+                <div class="swiper-slide declaration__slide"><img src="images/mayor/d-2.jpg" alt=""></div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <footer class="sign-footer">
+        <div class="sign-footer__inner">
+          <div class="sign-footer__info"><img class="sign-footer__logo" src="./images/logo.png" alt="">
+            <div class="sign-footer__desc">
+              <p>綠色和平致力於為地球發生，我們的存在是因為脆弱的地球需要改變、需要行動。
+                <br>但保護地球的使命不能僅靠綠色和平來完成，您就是改變世界的力量！</p>
+            </div>
+          </div>
+          <div class="sign-footer__links sign-links">
+            <ul class="sign-links__list">
+              <li class="sign-links__item"><a href="https://www.greenpeace.org/taiwan/?ref=2020-climate-emergency_footer">回到主頁</a></li>
+              <li class="sign-links__item"><a href="https://supporter.ea.greenpeace.org/tw/s/donate?campaign=climate&ref=2020-climate-emergency_footer" target="_blank">捐款支持</a></li>
+              <li class="sign-links__item"><a href="https://www.greenpeace.org/taiwan/policies/privacy-and-cookies/?ref=2020-climate-emergency_footer" target="_blank">隱私政策與個人資料收集聲明</a></li>
+            </ul>
+            <p class="copy">© 2020 Greenpeace</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(document).ready(function(){
+        //- var url = location.href.split('/');
+        //- url.pop();
+        //- url = url.join('/');
+        var url = location.href;
+        //若此規則無法取得正確分享網址，請直接把網址寫進 url
+        $('#shareFB').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=https://act.gp/3o6byBV');
+        $('#shareLINE').attr('href', 'https://lineit.line.me/share/ui?url=https://act.gp/3m0mYFM');              
+      
+        //開啟縣市長氣候宣言
+        var declareSlider = new Swiper();
+        $('.card__btn').on('click', function(e){
+          e.preventDefault();
+          var county = $(this).attr('data-county');
+          //填入縣市長宣言的圖片網址 可用 data-county 的對應名稱命名圖片 ex: tpe-d-1.jpg, tpe-d-2.jpg
+          $('.declaration__slide img').eq(0).attr('src', 'images/mayor/d-1.jpg');
+          $('.declaration__slide img').eq(1).attr('src', 'images/mayor/d-2.jpg');
+          $('.declaration').fadeIn();
+          //setup slider
+          declareSlider = new Swiper('.declaration__slider .swiper-container', {
+            //loop: true,
+            slidesPerView: 1,
+            navigation: {
+              prevEl: '.swiper-button-prev',
+              nextEl: '.swiper-button-next'
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+              bulletElement: 'span',
+              clickable: true
+            },
+          })
+        });
+        $('.declaration').on('click', function(e){
+          var checkSelectors = '.swiper-slide img, .swiper-button-prev, .swiper-button-next, .swiper-pagination';
+          if($(e.target).parents(checkSelectors).length>=1 || $(e.target).is(checkSelectors)) return;
+          $('.declaration').fadeOut(function(){
+            declareSlider.destroy(true, true);
+          });
+        });
+      
+        var mayors = ["柯文哲", "侯友宜", "林右昌", "鄭文燦", "楊文科", "林智堅", "徐耀昌", "盧秀燕", "林明溱", "王惠美", "張麗善", "翁章梁", "黃敏惠", "黃偉哲", "陳其邁", "潘孟安", "林姿妙", "徐榛蔚", "饒慶鈴", "賴峰偉", "楊鎮浯", "劉增應"]
+        $('#signCounty').on('change', function(e){
+          var nowName = mayors[$(this).val()];
+          $('.sign-paper__title .name').text(nowName);
+          $('.sign-main__select .text').text($(this).find('*:selected').text());
+        }).trigger('change');
+      
+        $('.sign-taiwan__block.on').on('click', function(e){
+          var _this = $(this);
+          var actived = _this.hasClass('active');
+          $('.sign-taiwan__block, .card').removeClass('active').removeAttr('style');
+          if(actived) return;
+          _this.addClass('active');
+          var fixX = _this.width()/2;
+          var fixY = _this.height()/2;
+          //- if(window.matchMedia('(max-width:780px)')){
+          //-   //fixX = $(this).width() * 0.25;
+          //-   //fixY = $(this).height() * 0.25;
+          //- }
+          $('.card.card--'+_this.attr('data-code')).addClass('active').css({
+            'left': _this.position().left + fixX,
+            'top': _this.position().top + fixY
+          });
+      
+        });
+      
+        //openbox
+        $('.sign-main__spec-link').on('click', function(e){
+          e.preventDefault();
+          $('.emergency').fadeToggle().toggleClass('opened');
+          if($('.emergency').hasClass('opened')){
+            $('.sign-main__spec-link .toggle').text('–');
+          }else{
+            $('.sign-main__spec-link .toggle').text('＋');
+          }
+        });
+        $('.emergency__cover').on('click', function(){
+          $('.emergency').fadeOut().removeClass('opened');;
+        });
+      
+        $('.scrollto').on('click', function(e){
+          e.preventDefault();
+          var to = $($(this).attr('data-to')).offset().top;
+          $('html, body').animate({scrollTop: to});
+        });
+      
+      });
+    </script>
+    <script src="js/all-dist.js"></script>
+    
+    <!-- MailCheck -->
+    <script src="https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.emergency.signup.mc/js/mailcheck.min.js"></script>
+    <script>
+      let domains = [
+        "me.com",
+        "outlook.com",
+        "netvigator.com",
+        "cloud.com",
+        "live.hk",
+        "msn.com",
+        "gmail.com",
+        "hotmail.com",
+        "ymail.com",
+        "yahoo.com",
+        "yahoo.com.tw",
+        "yahoo.com.hk"
+      ];
+      let topLevelDomains = ["com", "net", "org"];
+      
+      $("#Email").on('blur', function() {        
+        if ($('.email-suggestion').length === 0) {	
+          Mailcheck.run({
+            email: $("#Email").val(),
+            domains: domains, // optional
+            topLevelDomains: topLevelDomains, // optional
+            suggested: (suggestion) => {
+              $(`<div class="email-suggestion" style="font-size:small; color:#cceeff; line-height:2rem;">您想輸入的是 <strong id="emailSuggestion">${suggestion.full}</strong> 嗎？</div>`).insertAfter("#Email");
+
+              $(".email-suggestion").click(function() {
+                $("#Email").val($('#emailSuggestion').html());
+                $('.email-suggestion').remove();
+              });
+            },
+            empty: () => {
+              this.emailSuggestion = null
+            }
+          });
+        }
+      });
+    </script>
+
+    <!-- Form init & Validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>        
+    <script>      
+      // create the year options
+      let currYear = new Date().getFullYear()
+      for (var i = 0; i < 80; i++) {
+        let option = `<option value="${currYear-i}-01-01">${currYear-i}</option>`
+        $('#Birthdate').append(option);        
+      }
+
+      $('.sign-form__submit').on( "click", function(e) {          
+        e.preventDefault();        
+        $("#sign-form").submit();
+      }).end();
+      
+      $.validator.addMethod( //override email with django email validator regex - fringe cases: "user@admin.state.in..us" or "name@website.a"
+        'email',
+        function(value, element){
+          return this.optional(element) || /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/i.test(value);
+        },
+        'Email 格式錯誤'
+      );
+
+      $.validator.addMethod(
+        "taiwan-phone",
+        function (value, element) {
+
+          const phoneReg6 = new RegExp(/^(0|886|\+886)?(9\d{8})$/).test(value);
+          const phoneReg7 = new RegExp(/^(0|886|\+886){1}[2-8]-?\d{6,8}$/).test(value);
+        
+          if ($('#MobilePhone').prop('required')) {
+            return this.optional(element) || phoneReg6 || phoneReg7;
+          } else if ($('#MobilePhone').val()) {
+            return this.optional(element) || phoneReg6 || phoneReg7;
+          }
+          return true
+        },
+        "電話格式不正確，請只輸入數字 0912345678 或 02-12345678")
+
+      $.validator.addClassRules({ // connect it to a css class
+        "email": {email: true},
+        "taiwan-phone" : { "taiwan-phone" : true }
+      });
+
+      $.extend($.validator.messages, {
+          required: "必填欄位"
+      });
+      
+      $("#sign-form").validate({       
+        submitHandler: function() {          
+          showFullPageLoading();
+          let formData = new FormData();
+          document.querySelectorAll("#sign-form input,select").forEach(function (el, idx) {
+            let v = null
+            if (el.type==="checkbox") {
+              v = el.checked;
+            } else {
+              v = el.value;
+            }
+
+            formData.append(el.name, v);
+            //console.log("Use", el.name, v);
+          });
+          formData.append("city", $('#signCounty :selected').text());
+          formData.append("CampaignData1__c", $('#signCounty :selected').text());
+
+          fetch(document.querySelector("#sign-form").action, {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => {return response.json()})
+          .then(response => {            
+            if (response) {              
+              // hide the Form, display the thank you div
+              $('#signForm').hide();
+              $('#signed').fadeIn();
+              $('html, body').scrollTop($('#signed').offset().top);
+              
+              if (response.Supporter) {
+                // add tracking code here
+                sendPetitionTracking('2020-climate_emergency');                                
+              }
+
+              // send to google sheet
+              fetch("https://script.google.com/macros/s/AKfycbxrAJ977hDyqSb_AmR_6OVKYTkZh308DlDQFpa-la3GNqVR-FM/exec", {
+                method: 'POST',
+                body: formData
+              });
+            }
+            hideFullPageLoading();
+          })
+          .catch(error => {
+            console.log(error);
+            hideFullPageLoading();
+            // display the error message                      
+          });
+        }
+      });      
+                     
+      /**
+       * Send the tracking event to the ga
+       * @param  {string} eventLabel The ga trakcing name, normally it will be the short campaign name. ex 2019-plastic_retailer
+       * @param  {[type]} eventValue Could be empty
+       * @return {[type]}            [description]
+       */
+      function sendPetitionTracking(eventLabel, eventValue) {
+        window.dataLayer = window.dataLayer || [];
+
+        window.dataLayer.push({
+            'event': 'gaEvent',
+            'eventCategory': 'petitions',
+            'eventAction': 'signup',
+            'eventLabel': eventLabel,
+            'eventValue' : eventValue
+        });
+
+        window.dataLayer.push({
+            'event': 'fbqEvent',
+            'contentName': eventLabel,
+            'contentCategory': 'Petition Signup'
+        });
+
+        window.uetq = window.uetq || [];  
+        window.uetq.push ('event', 'signup', {'event_category': 'petitions', 'event_label': eventLabel, 'event_value': 0});        
+      }
+
+      /**
+       * Show the full page loading
+       */
+      const showFullPageLoading = () => {
+        if ( !document.querySelector("#page-loading")) {
+          document.querySelector("body").insertAdjacentHTML('beforeend', `
+            <div id="page-loading" class="hide">
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+            </div>`);
+        }
+
+        setTimeout(() => { // to enable the transition
+          document.querySelector("#page-loading").classList.remove("hide")
+        }, 0)
+      }
+      /**
+       * Hide the full page loading
+       */
+      const hideFullPageLoading = () => {
+        document.querySelector("#page-loading").classList.add("hide")
+
+        setTimeout(() => {
+          document.querySelector("#page-loading").remove()
+        }, 1100)
+      }            
+
+      /**
+       * Hide the donatin btn in DD page
+       */
+      const hideDdBtn = () => {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        if (urlParams.get('utm_source') === "dd") {
+          $('.is-hidden-at-dd-page-only').hide();
+
+          $('#MobilePhone').removeAttr("required"); //移除電話欄位 required Attr        
+        }
+      }
+    </script>      
+
+    <!-- Progress bar -->
+    <script src="https://change.greenpeace.org.tw/2020/petition/zh-TW.2020.climate.emergency.signup.mc/js/progressbar.min.js"></script>        
+    <script>
+      const initBar = (barNumber) => {
+        let barTarget = 10000;        
+                
+        if (barNumber > barTarget)
+          barTarget = Math.ceil(barNumber / 10000) * 10000;        
+        document.getElementById('progress__target').innerText = barTarget.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+
+        var bar = new ProgressBar.Line('#progress', {
+          strokeWidth: 2,
+          easing: 'easeInOut',
+          duration: 1400,
+          color: '#ffce00',
+          from: { color: '#acdddc' },
+          to: { color: '#ffce00' },
+          trailColor: '#272525',
+          trailWidth: 2,
+          svgStyle: {width: '100%', height: '100%'},
+          step: (state, bar) => {            
+            document.getElementById('progress__number').innerText = `${Math.round(bar.value() * barTarget).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+          }
+        });
+        
+        bar.animate(barNumber / barTarget);  
+        $('.lds-dual-ring').hide();
+        $('.progress__inner').show();
+      }
+
+      function getProgressNumber() {
+        fetch("https://cors-anywhere.small-service.gpeastasia.org/https://script.google.com/macros/s/AKfycbxrAJ977hDyqSb_AmR_6OVKYTkZh308DlDQFpa-la3GNqVR-FM/exec", {
+          method: 'POST'
+        }).then(response => response.json())
+        .then(response => {          
+          initBar(response);
+        });
+      }
+
+      $(function() {
+        hideDdBtn();
+        getProgressNumber();
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const utm_source = urlParams.get('utm_source');
+        const utm_medium = urlParams.get('utm_medium');
+        const utm_campaign = urlParams.get('utm_campaign');
+        const utm_content = urlParams.get('utm_content');
+        const utm_term = urlParams.get('utm_term');
+        $("#UtmMedium").val(utm_medium);
+        $("#UtmSource").val(utm_source);
+        $("#UtmCampaign").val(utm_campaign);
+        $("#UtmContent").val(utm_content);
+        $("#UtmTerm").val(utm_term);
+      });
+    </script>
+  </body>
+</html>
