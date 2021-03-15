@@ -13,7 +13,11 @@
     <meta http-equiv="Content-Language" content="zh-tw">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="js/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/style.css?v=7">
+    <link rel="stylesheet" href="css/style.css?v=8">
+    <link rel="preload" href="images/mayor/tph-d-1.jpg" as="image" />
+    <link rel="preload" href="images/mayor/tph-d-2.jpg" as="image" />
+    <link rel="preload" href="images/mayor/ttt-d-1.jpg" as="image" />
+    <link rel="preload" href="images/mayor/ttt-d-2.jpg" as="image" />
     <script src="js/jquery-1.12.4.min.js"></script>
     <script>        
       var dataLayer = window.dataLayer = window.dataLayer || [];
@@ -32,7 +36,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <script src="js/swiper-bundle.min.js"></script>
     <header class="header on  header--release">
-      <div class="header__inner"><span class="header__logo hide-text"></span><a class="menu-btn" href="#"><span class="bars"></span></a></div>
+      <div class="header__inner" style="border-bottom: 0;"><span class="header__logo hide-text" style="width: 0;"></span><a class="menu-btn" href="#" style="margin-top:0;"><span class="bars"></span></a></div>
     </header>
     <nav class="nav">
       <div class="nav__cover"></div>
@@ -56,8 +60,12 @@
             <h1 class="sign-enter__title hide-text"><span class="text">氣候緊急 城市先行</span></h1>
             <div class="sign-enter__content">
               <p class="sign-enter__desc">
-                暴雨、熱浪、海平面上升，<br class="mb-show">氣候變遷已衝擊您我的生活。<br>若我們不能及時展開行動，積極減碳，<br class="mb-show"><br class="mb-show"><strong>2050年，
-                <br>臺灣恐有近300萬人的家園沒入海中...</strong>
+                全球暖化、暴雨、海平面上升、超強寒流...<br>
+                氣候變遷造成的種種極端事件，<br class="mb-show">不僅影響你我的日常生活<br>
+                更一步步將世間萬物推向攸關存亡的懸崖邊<br>
+                時間不多了，採取氣候行動，從地方政府開始！
+                <!-- 暴雨、熱浪、海平面上升，<br class="mb-show">氣候變遷已衝擊您我的生活。<br>若我們不能及時展開行動，積極減碳，<br class="mb-show"><br class="mb-show"><strong>2050年，
+                <br>臺灣恐有近300萬人的家園沒入海中...</strong>-->
               </p>
             </div>
             <div class="progress__div">
@@ -70,6 +78,32 @@
             </div>              
           </div>
         </div><a class="sign__scroll scrollto" href="" data-to="#sign"></a>
+        <div id="slideshow"> 
+			<picture class="active"> 	
+				<source srcset="images/section-1/375_814/coral_bleach_375_814.jpg" media="(max-width: 500px)">
+				<source srcset="images/section-1/1024_768/coral_bleach_1024_768.jpg" media="(max-width: 1366px)">
+				<source srcset="images/section-1/1366_768/coral_bleach_1366_768.jpg" media="(min-width: 1367px)">
+				<img src="images/section-1/1024_768/coral_bleach_1024_768.jpg"> 
+			</picture> 
+			<picture> 	
+				<source srcset="images/section-1/375_814/heavy_rain_375_814.jpg" media="(max-width: 500px)">
+				<source srcset="images/section-1/1024_768/heavy_rain_1024_768.jpg" media="(max-width: 1366px)">
+				<source srcset="images/section-1/1366_768/heavy_rain_1366_768.jpg" media="(min-width: 1367px)">
+				<img src="images/section-1/1024_768/heavy_rain_1024_768.jpg"> 
+			</picture> 
+			<picture> 	
+				<source srcset="images/section-1/375_814/polar_bear_375_814.jpg" media="(max-width: 500px)">
+				<source srcset="images/section-1/1024_768/polar_bear_1024_768.jpg" media="(max-width: 1366px)">
+				<source srcset="images/section-1/1366_768/polar_bear_1366_768.jpg" media="(min-width: 1367px)">
+				<img src="images/section-1/1024_768/polar_bear_1024_768.jpg"> 
+			</picture> 
+			<picture> 	
+				<source srcset="images/section-1/375_814/snow_375_814.jpg" media="(max-width: 500px)">
+				<source srcset="images/section-1/1024_768/snow_1024_768.jpg" media="(max-width: 1366px)">
+				<source srcset="images/section-1/1366_768/snow_1366_768.jpg" media="(min-width: 1367px)">
+				<img src="images/section-1/1024_768/snow_1024_768.jpg"> 
+			</picture> 
+        </div>
       </section>
       <section class="sign__section sign-main" id="sign">
         <div class="sign-main__inner" id="signForm">
@@ -205,27 +239,41 @@
                 未來三年，全球綠色和平將投入更多資源去減緩氣候變遷，包含持續關注極端氣候事件，向無視氣候危機的政府、企業問責，同時向全球化石燃料企業施壓；在臺灣，我們已展開氣候教育，提升下一代的氣候危機意識，並監督用電大戶條款與溫管法的修法，要求臺灣用電大戶需負起相應的環境責任，積極轉用再生能源。<br><br>環境運動並非一蹴可幾，但只要堅持下去，必能迎來轉機，您的連署支持就是改善氣候問題的第一步，也邀請您多走一步，將連署分享給親朋好友，壯大臺灣的氣候運動社群！
                 <br><br><br>分享至：<br><a class="sign-thanks__share sign-thanks__share--fb share-button share-button__fb" id="shareFB" href="" target="_blank"></a><a class="sign-thanks__share sign-thanks__share--line share-button share-button__line" id="shareLINE" href="" target="_blank"></a>
               </p><a class="sign-form__btn sign-thanks__support is-hidden-at-dd-page-only" href="https://supporter.ea.greenpeace.org/tw/s/donate?campaign=climate&ref=2020-climate-emergency_thankyoupage_donation_btn" target="_blank">支持我們</a>
+			  <div class="line-div is-show-at-dd-page-only">				
+				<div class="line-tp">
+					<a href='http://act.gp/GPLINE_tp' target='_blank'>加入我們的 LINE 好友<br><br>
+					<img src="images/act.gp_GPLINE_tp.png" /></a>
+				</div>
+				<div class="line-tc">
+					<a href='http://act.gp/GPLINE_tc' target='_blank'>加入我們的 LINE 好友<br><br>
+					<img src="images/act.gp_GPLINE_tc.png" /></a>
+				</div>
+				<div class="line-ks">
+					<a href='http://act.gp/GPLINE_ks' target='_blank'>加入我們的 LINE 好友<br><br>
+					<img src="images/act.gp_GPLINE_ks.png" /></a>
+				</div>
+			  </div>
             </div>
           </div>
         </div>
       </section>
       <section class="sign__section sign-taiwan">
         <div class="sign-taiwan__inner">
-          <p class="sign-taiwan__time">最近更新：2020/10/20</p>
+          <p class="sign-taiwan__time">更新日期：2021/01/18</p>
           <h2 class="sign-taiwan__title">
-            <strong>目前已宣示的縣市首長<span>0位</span></strong><br>誰會成為臺灣第一位宣示氣候緊急的縣市首長？</h2>          
+            <strong>目前已宣示的縣市首長<span>3位</span></strong><br>誰會成為臺灣下一位宣示氣候緊急的縣市首長？</h2>          
           <div class="sign-taiwan__main">            
             <div class="sign-taiwan__base"></div>
             <div class="sign-taiwan__fill">
               <!--.sign-taiwan__block 加上 on class 作為已宣示的縣市區，可以點擊開出宣言-->
               <div class="sign-taiwan__block sign-taiwan__block--tpe" data-code="tpe"></div>
-              <div class="sign-taiwan__block sign-taiwan__block--tph" data-code="tph"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--tph on" data-code="tph"></div>
               <div class="sign-taiwan__block sign-taiwan__block--klu" data-code="klu"></div>
               <div class="sign-taiwan__block sign-taiwan__block--tyc" data-code="tyc"></div>
               <div class="sign-taiwan__block sign-taiwan__block--hsh" data-code="hsh"></div>
               <div class="sign-taiwan__block sign-taiwan__block--hsc" data-code="hsc"></div>
               <div class="sign-taiwan__block sign-taiwan__block--mal" data-code="mal"></div>
-              <div class="sign-taiwan__block sign-taiwan__block--txg" data-code="txg"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--txg on" data-code="txg"></div>
               <div class="sign-taiwan__block sign-taiwan__block--nto" data-code="nto"></div>
               <div class="sign-taiwan__block sign-taiwan__block--cwh" data-code="cwh"></div>
               <div class="sign-taiwan__block sign-taiwan__block--ylh" data-code="ylh"></div>
@@ -236,17 +284,17 @@
               <div class="sign-taiwan__block sign-taiwan__block--iuh" data-code="iuh"></div>
               <div class="sign-taiwan__block sign-taiwan__block--iln" data-code="iln"></div>
               <div class="sign-taiwan__block sign-taiwan__block--hwa" data-code="hwa"></div>
-              <div class="sign-taiwan__block sign-taiwan__block--ttt" data-code="ttt"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--ttt on" data-code="ttt"></div>
             </div>
             <div class="sign-taiwan__line"></div>
             <div class="sign-taiwan__cards">
               <div class="card card--tpe">
                 <div class="card__photo"><img src="./images/mayor/tpe.png" alt=""></div>
-                <p class="card__title"><span class="card__dist">臺北市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">柯文哲</span></span></p><a class="card__btn" href="" data-county="tpe">查看氣候緊急宣言</a>
+                <p class="card__title"><span class="card__dist">臺北市 | </span><span class="card__name"><span class="title">市長&nbsp;</span><span class="name">柯文哲</span></span></p><a class="card__btn" href="" data-county="tpe">查看氣候緊急宣言</a>
               </div>
               <div class="card card--tph">
                 <div class="card__photo"><img src="./images/mayor/tph.png" alt=""></div>
-                <p class="card__title"><span class="card__dist">新北市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">侯友宜</span></span></p><a class="card__btn" href="" data-county="tph">查看氣候緊急宣言</a>
+                <p class="card__title"><span class="card__dist">新北市 | </span><span class="card__name"><span class="title">市長&nbsp;</span><span class="name">侯友宜</span></span></p><a class="card__btn" href="" data-county="tph">查看氣候緊急宣言</a>
               </div>
               <div class="card card--klu">
                 <div class="card__photo"><img src="./images/mayor/klu.png" alt=""></div>
@@ -324,8 +372,8 @@
           <div class="declaration__slider">
             <div class="swiper-container">
               <div class="swiper-wrapper">
-                <div class="swiper-slide declaration__slide"><img src="images/mayor/d-1.jpg" alt=""></div>
-                <div class="swiper-slide declaration__slide"><img src="images/mayor/d-2.jpg" alt=""></div>
+                <div class="swiper-slide declaration__slide"><img src="" alt="" title="圖片載入中..."></div>
+                <div class="swiper-slide declaration__slide"><img src="" alt=""></div>
               </div>
             </div>
             <div class="swiper-button-prev"></div>
@@ -367,11 +415,12 @@
         var declareSlider = new Swiper();
         $('.card__btn').on('click', function(e){
           e.preventDefault();
-          var county = $(this).attr('data-county');
+          var county = $(this).attr('data-county');          
           //填入縣市長宣言的圖片網址 可用 data-county 的對應名稱命名圖片 ex: tpe-d-1.jpg, tpe-d-2.jpg
-          $('.declaration__slide img').eq(0).attr('src', 'images/mayor/d-1.jpg');
-          $('.declaration__slide img').eq(1).attr('src', 'images/mayor/d-2.jpg');
+          $('.declaration__slide img').eq(0).attr('src', 'images/mayor/' + county + '-d-1.jpg');
+          $('.declaration__slide img').eq(1).attr('src', 'images/mayor/' + county + '-d-2.jpg');
           $('.declaration').fadeIn();
+          //alert($('.declaration__slide img').eq(0).attr('src'));
           //setup slider
           declareSlider = new Swiper('.declaration__slider .swiper-container', {
             //loop: true,
@@ -396,7 +445,7 @@
           });
         });
       
-        var mayors = ["柯文哲", "侯友宜", "林右昌", "鄭文燦", "楊文科", "林智堅", "徐耀昌", "盧秀燕", "林明溱", "王惠美", "張麗善", "翁章梁", "黃敏惠", "黃偉哲", "陳其邁", "潘孟安", "林姿妙", "徐榛蔚", "饒慶鈴", "賴峰偉", "楊鎮浯", "劉增應"]
+        var mayors = ["柯文哲", "侯友宜", "林右昌", "鄭文燦", "楊文科", "林智堅", "徐耀昌", "盧秀燕", "林明溱", "王惠美", "張麗善", "翁章梁", "黃敏惠", "黃偉哲", "陳其邁", "潘孟安", "林姿妙", "徐榛蔚", "饒慶鈴", "楊鎮浯", "賴峰偉", "劉增應"]
         $('#signCounty').on('change', function(e){
           var nowName = mayors[$(this).val()];
           $('.sign-paper__title .name').text(nowName);
@@ -492,7 +541,7 @@
     <script>      
       // create the year options
       let currYear = new Date().getFullYear()
-      for (var i = 0; i < 80; i++) {
+      for (var i = 0; i < 100; i++) {
         let option = `<option value="${currYear-i}-01-01">${currYear-i}</option>`
         $('#Birthdate').append(option);        
       }
@@ -647,10 +696,56 @@
         const urlParams = new URLSearchParams(queryString);
         if (urlParams.get('utm_source') === "dd") {
           $('.is-hidden-at-dd-page-only').hide();
-
+		  $('.is-show-at-dd-page-only').show();
           $('#MobilePhone').removeAttr("required"); //移除電話欄位 required Attr        
+		  		  
+		  if (urlParams.get('utm_content') === "tp") {
+			$('.line-tp').show();
+			$('.line-tc').hide();
+			$('.line-ks').hide();
+		  } else if (urlParams.get('utm_content') === "tc") {
+			$('.line-tp').hide();
+			$('.line-tc').show();
+			$('.line-ks').hide();
+		  } else {
+			$('.line-tp').hide();
+			$('.line-tc').hide();
+			$('.line-ks').show();
+		  }
         }
       }
+
+      /**
+       * Slideshow
+       */
+      function slideSwitch() {
+        console.log('slideSwitch');
+        var $active = $('#slideshow picture.active');
+      
+        if ( $active.length == 0 ) $active = $('#slideshow picture:last');
+      
+        // use this to pull the images in the order they appear in the markup
+        var $next =  $active.next().length ? $active.next()
+            : $('#slideshow picture:first');
+      
+        // uncomment the 3 lines below to pull the images in random order      
+        // var $sibs  = $active.siblings();
+        // var rndNum = Math.floor(Math.random() * $sibs.length );
+        // var $next  = $( $sibs[ rndNum ] );
+      
+        $active.addClass('last-active');
+      
+        $next.css({opacity: 0.0})
+            .addClass('active')
+            .animate({opacity: 1.0}, 1000, function() {
+                $active.removeClass('active last-active');
+				$active.removeAttr("style");
+            });
+      }
+      
+      $(function() {
+        setInterval( "slideSwitch()", 5000 ); 
+      });
     </script>      
 
     <!-- Progress bar -->
