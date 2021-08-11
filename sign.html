@@ -18,6 +18,8 @@
     <link rel="preload" href="images/mayor/tph-d-2.jpg" as="image" />
     <link rel="preload" href="images/mayor/ttt-d-1.jpg" as="image" />
     <link rel="preload" href="images/mayor/ttt-d-2.jpg" as="image" />
+	<link rel="preload" href="images/mayor/tnn-d-1.jpg" as="image" />
+    <link rel="preload" href="images/mayor/tnn-d-2.jpg" as="image" />
     <script src="js/jquery-1.12.4.min.js"></script>
     <script>        
       var dataLayer = window.dataLayer = window.dataLayer || [];
@@ -179,16 +181,16 @@
             </div><a class="sign-form__btn mb-show scrollto" href="" data-to="#form">立即連署</a>
             <div class="sign-main__block sign-form" id="form">
               <h3 class="sign-form__title mb-show">我要連署</h3>
-              <form id="sign-form" action="https://cors-anywhere.small-service.gpeastasia.org/https://cloud.greentw.greenpeace.org/pp_campaign" method="POST">
+              <form id="sign-form" action="https://cors-anywhere.small-service.gpeastasia.org/https://cloud.greentw.greenpeace.org/websign " method="POST">
                 <ul class="sign-form__list">
                   <li class="sign-form__item sign-form__group">
                     <div class="sign-form__cell sign-form__cell--s">
                       <label class="sign-form__label" for="LastName">姓氏<span class="mark">*</span></label>
-                      <input class="sign-form__input" type="text" name="LastName" id="LastName" required>
+                      <input class="sign-form__input" type="text" name="LastName" id="LastName" autocomplete="family-name" required>
                     </div>
                     <div class="sign-form__cell">
                       <label class="sign-form__label" for="FirstName">名字<span class="mark">*</span></label>
-                      <input class="sign-form__input" type="text" name="FirstName" id="FirstName" required>
+                      <input class="sign-form__input" type="text" name="FirstName" id="FirstName" autocomplete="given-name" required>
                     </div>
                   </li>
                   <li class="sign-form__item">
@@ -199,11 +201,11 @@
                   </li>
                   <li class="sign-form__item">
                     <label class="sign-form__label" for="MobilePhone">電話<span class="mark">*</span></label>
-                    <input class="sign-form__input taiwan-phone" type="text" name="MobilePhone" id="MobilePhone" required>
+                    <input class="sign-form__input taiwan-phone" type="text" name="MobilePhone" id="MobilePhone" autocomplete="tel" required>
                   </li>
                   <li class="sign-form__item">
                     <label class="sign-form__label" for="Email">電子信箱<span class="mark">*</span></label>
-                    <input class="sign-form__input email" type="email" name="Email" id="Email" required>
+                    <input class="sign-form__input email" type="email" name="Email" id="Email" autocomplete="email" required>
                   </li>
                   <li class="sign-form__item sign-form__item--check">
                     <input class="sign-form__check" type="checkbox" name="OptIn" id="OptIn" checked>
@@ -259,9 +261,9 @@
       </section>
       <section class="sign__section sign-taiwan">
         <div class="sign-taiwan__inner">
-          <p class="sign-taiwan__time">更新日期：2021/01/18</p>
+          <p class="sign-taiwan__time">更新日期：2021/05/11</p>
           <h2 class="sign-taiwan__title">
-            <strong>目前已宣示的縣市首長<span>3位</span></strong><br>誰會成為臺灣下一位宣示氣候緊急的縣市首長？</h2>          
+            <strong>目前已宣示的縣市首長<span>4位</span></strong><br>誰會成為臺灣下一位宣示氣候緊急的縣市首長？</h2>          
           <div class="sign-taiwan__main">            
             <div class="sign-taiwan__base"></div>
             <div class="sign-taiwan__fill">
@@ -279,7 +281,7 @@
               <div class="sign-taiwan__block sign-taiwan__block--ylh" data-code="ylh"></div>
               <div class="sign-taiwan__block sign-taiwan__block--chy" data-code="chy"></div>
               <div class="sign-taiwan__block sign-taiwan__block--cyi" data-code="cyi"></div>
-              <div class="sign-taiwan__block sign-taiwan__block--tnn" data-code="tnn"></div>
+              <div class="sign-taiwan__block sign-taiwan__block--tnn on" data-code="tnn"></div>
               <div class="sign-taiwan__block sign-taiwan__block--khh" data-code="khh"></div>
               <div class="sign-taiwan__block sign-taiwan__block--iuh" data-code="iuh"></div>
               <div class="sign-taiwan__block sign-taiwan__block--iln" data-code="iln"></div>
@@ -318,7 +320,7 @@
               </div>
               <div class="card card--txg">
                 <div class="card__photo"><img src="./images/mayor/txg.png" alt=""></div>
-                <p class="card__title"><span class="card__dist">臺中市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">盧秀燕</span></span></p><a class="card__btn" href="" data-county="txg">查看氣候緊急宣言</a>
+                <p class="card__title"><span class="card__dist">臺中市 | </span><span class="card__name"><span class="title">市長&nbsp;</span><span class="name">盧秀燕</span></span></p><a class="card__btn" href="" data-county="txg">查看氣候緊急宣言</a>
               </div>
               <div class="card card--nto">
                 <div class="card__photo"><img src="./images/mayor/nto.png" alt=""></div>
@@ -342,7 +344,7 @@
               </div>
               <div class="card card--tnn">
                 <div class="card__photo"><img src="./images/mayor/tnn.png" alt=""></div>
-                <p class="card__title"><span class="card__dist">臺南市 | </span><span class="card__name"><span class="title">縣長&nbsp;</span><span class="name">黃偉哲</span></span></p><a class="card__btn" href="" data-county="tnn">查看氣候緊急宣言</a>
+                <p class="card__title"><span class="card__dist">臺南市 | </span><span class="card__name"><span class="title">市長&nbsp;</span><span class="name">黃偉哲</span></span></p><a class="card__btn" href="" data-county="tnn">查看氣候緊急宣言</a>
               </div>
               <div class="card card--khh">
                 <div class="card__photo"><img src="./images/mayor/khh.png" alt=""></div>
